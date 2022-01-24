@@ -10,7 +10,6 @@ public:
 		: value(value)
 	{
 	}
-	bool operator==(const sample_2& rhs) const;
 };
 class sample_2 {
 	friend bool operator==(const sample_1& lhs, const sample_2& rhs);
